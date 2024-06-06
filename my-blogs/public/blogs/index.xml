@@ -11,14 +11,17 @@
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Jun 2024 20:25:37 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://setsushin.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
+      <title>Always Use Guard in Coding</title>
       <link>https://setsushin.github.io/blogs/xxx/</link>
-      <pubDate>Thu, 06 Jun 2024 20:25:37 +0900</pubDate>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0900</pubDate>
       <guid>https://setsushin.github.io/blogs/xxx/</guid>
-      <description>Just a test. </description>
+      <description>You must ever been tormented by multiple nested if-else statements, like following:
+if (case1): if (case2): if (case3): do_something() Yes, it&amp;rsquo;s very natural, but not good enough. However, the fact is that even the author himself, he will forget all logics when he reviews after only a few days.
+So if you want to implement the above logic, it&amp;rsquo;s recommended to use guard like this:
+if (not case1): break if (not case2): break if (not case3) break do_something() which makes the structure flatter and easier to understand.</description>
     </item>
   </channel>
 </rss>
