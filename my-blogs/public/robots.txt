@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://setsushin.github.io/sitemap.xml
