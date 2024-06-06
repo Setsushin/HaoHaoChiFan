@@ -1,5 +1,5 @@
 baseURL: https://setsushin.github.io/
-title: Setsushin's Garden
+title: Everything, Anything
 paginate: 5
 theme: ["PaperMod"]
 
@@ -44,8 +44,7 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Theme PaperMod
+  # description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto
@@ -61,18 +60,18 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
-  # comments: false
-  images: ["images/papermod-cover.png"]
+  comments: true
+  images: []
 
   profileMode:
     enabled: false
     title: PaperMod
-    imageUrl: "#"
+    imageUrl: ""
     imageTitle: my image
     # imageWidth: 120
     # imageHeight: 120
     buttons:
-      - name: Archives
+      - name: Blogs
         url: archives
       - name: Tags
         url: tags
@@ -88,7 +87,7 @@ params:
       url: "https://github.com/setsushin"
 
   editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+    URL: "https://github.com/Setsushin/HaoHaoChiFan/tree/main/my-blogs/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
